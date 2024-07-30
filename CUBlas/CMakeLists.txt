@@ -15,6 +15,8 @@ include_directories(${CUDA_INCLUDE_DIRS} include)
 # Set the source files
 set(SOURCES
         src/main.cu
+        src/RMD-batch-svd.cu
+        src/RMD-batch-qr.cu
         )
 
 # Set the target executable
