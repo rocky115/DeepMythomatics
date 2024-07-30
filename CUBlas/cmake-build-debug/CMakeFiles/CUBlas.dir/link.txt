@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CUBlas.dir/main.cpp.o  -o CUBlas 
