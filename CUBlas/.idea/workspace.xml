@@ -12,6 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="437b3d19-b4e7-486b-b292-e44239ba1a5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/include/batch_copy/batch_block_copy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/batch_gqep/batch_gqep.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/batch_pstrf/batch_pstrf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/batch_rand/batch_rand.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/batch_transpose/batch_transpose.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_copy/Readme_bc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_copy/batch_block_copy.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_gqep/Readme_bc_qep.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_gqep/batch_qep.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_pstrf/Readme_pstrf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_pstrf/batch_pstrf.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_rand/Readme_br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_rand/batch_rand.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_transpose/Readme_btr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/batch_transpose/batch_transpose.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -25,29 +40,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/RMD_kernel_svd.cuh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RMD_kernel_svd.cu">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
+        <entry file="file://$PROJECT_DIR$/src/batch_gqep/Readme_bc_qep.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="156">
-                <caret line="50" column="107" selection-start-line="50" selection-start-column="107" selection-end-line="50" selection-end-column="107" />
+              <first_editor relative-caret-position="255">
+                <caret line="17" column="100" selection-start-line="17" selection-start-column="100" selection-end-line="18" selection-end-column="81" />
               </first_editor>
               <second_editor />
             </state>
@@ -55,64 +52,84 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RMD-batch-qr.cu">
+        <entry file="file://$PROJECT_DIR$/include/batch_pstrf/batch_pstrf.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="52">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/matrix_multiply.cu">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" lean-forward="true" selection-end-line="15" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/batch_ara.cu">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/matrix_multiply.cuh">
+        <entry file="file://$PROJECT_DIR$/src/batch_pstrf/batch_pstrf.cu">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="10" lean-forward="true" selection-end-line="15" selection-end-column="3" />
+              <caret line="3" column="3" selection-start-line="1" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/RMD-batch-svd.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" selection-end-line="15" selection-end-column="3" />
+        <entry file="file://$PROJECT_DIR$/src/batch_pstrf/Readme_pstrf.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="277">
+                <caret line="41" selection-start-line="41" selection-end-line="41" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RMD-batch-svd.cu">
+        <entry file="file://$PROJECT_DIR$/include/batch_rand/batch_rand.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/batch_rand/batch_rand.cu">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="75">
+              <caret line="5" column="20" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/RMD-cublas.h">
+        <entry file="file://$PROJECT_DIR$/src/batch_rand/Readme_br.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="630">
+                <caret line="42" selection-start-line="42" selection-end-line="42" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/batch_transpose/batch_transpose.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" lean-forward="true" selection-end-line="16" />
+            <state relative-caret-position="225">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/batch_transpose/batch_transpose.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/batch_transpose/Readme_btr.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -139,10 +156,25 @@
         <option value="$PROJECT_DIR$/src/RMD_kernel_svd.cu" />
         <option value="$PROJECT_DIR$/src/batch_ara.cu" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/src/batch_copy/Readme_bc.md" />
+        <option value="$PROJECT_DIR$/src/batch_copy/batch_block_copy.cpp" />
+        <option value="$PROJECT_DIR$/src/batch_gqep/batch_qep.cpp" />
+        <option value="$PROJECT_DIR$/src/batch_gqep/Readme_bc_qep.md" />
+        <option value="$PROJECT_DIR$/include/batch_copy/batch_block_copy.h" />
+        <option value="$PROJECT_DIR$/include/batch_gqep/batch_gqep.h" />
+        <option value="$PROJECT_DIR$/include/batch_pstrf/batch_pstrf.h" />
+        <option value="$PROJECT_DIR$/src/batch_pstrf/batch_pstrf.cpp" />
+        <option value="$PROJECT_DIR$/src/batch_pstrf/Readme_pstrf.md" />
+        <option value="$PROJECT_DIR$/src/batch_rand/batch_rand.cu" />
+        <option value="$PROJECT_DIR$/src/batch_rand/Readme_br.md" />
+        <option value="$PROJECT_DIR$/include/batch_transpose/batch_transpose.h" />
+        <option value="$PROJECT_DIR$/include/batch_rand/batch_rand.h" />
+        <option value="$PROJECT_DIR$/src/batch_transpose/batch_transpose.cpp" />
+        <option value="$PROJECT_DIR$/src/batch_transpose/Readme_btr.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="75" />
     <option name="y" value="98" />
     <option name="width" value="1277" />
@@ -169,7 +201,25 @@
             <path>
               <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
               <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="batch_pstrf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="batch_rand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="batch_transpose" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,16 +271,19 @@
       <workItem from="1722307285506" duration="2156000" />
       <workItem from="1722524186092" duration="2908000" />
       <workItem from="1722597224854" duration="30000" />
+      <workItem from="1724174650896" duration="1000" />
+      <workItem from="1724174662582" duration="3952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5094000" />
+    <option name="totallyTimeSpent" value="9047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25737053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26613545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,24 +366,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrix_multiply.cu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/batch_ara.cu">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/matrix_multiply.cuh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="10" lean-forward="true" selection-end-line="15" selection-end-column="3" />
+          <caret line="3" column="10" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -351,17 +397,137 @@
     <entry file="file://$PROJECT_DIR$/include/RMD-cublas.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="true" selection-end-line="16" />
+          <caret line="6" column="17" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="156">
+          <first_editor relative-caret-position="622">
             <caret line="50" column="107" selection-start-line="50" selection-start-column="107" selection-end-line="50" selection-end-column="107" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_copy/Readme_bc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="780">
+            <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/matrix_multiply.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/batch_copy/batch_block_copy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_copy/batch_block_copy.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/batch_gqep/batch_gqep.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_gqep/batch_qep.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_gqep/Readme_bc_qep.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="100" selection-start-line="17" selection-start-column="100" selection-end-line="18" selection-end-column="81" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_pstrf/Readme_pstrf.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="277">
+            <caret line="41" selection-start-line="41" selection-end-line="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_pstrf/batch_pstrf.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="1" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_rand/Readme_br.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="630">
+            <caret line="42" selection-start-line="42" selection-end-line="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_rand/batch_rand.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/batch_rand/batch_rand.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/batch_pstrf/batch_pstrf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/batch_transpose/batch_transpose.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_transpose/batch_transpose.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/batch_transpose/Readme_btr.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
