@@ -11,24 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="437b3d19-b4e7-486b-b292-e44239ba1a5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/batch_copy/batch_block_copy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/batch_gqep/batch_gqep.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/batch_pstrf/batch_pstrf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/batch_rand/batch_rand.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/batch_transpose/batch_transpose.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_copy/Readme_bc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_copy/batch_block_copy.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_gqep/Readme_bc_qep.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_gqep/batch_qep.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_pstrf/Readme_pstrf.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_pstrf/batch_pstrf.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_rand/Readme_br.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_rand/batch_rand.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_transpose/Readme_btr.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_transpose/batch_transpose.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="437b3d19-b4e7-486b-b292-e44239ba1a5d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +111,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/batch_transpose/Readme_btr.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="316">
               <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
@@ -174,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="75" />
     <option name="y" value="98" />
     <option name="width" value="1277" />
@@ -192,34 +175,6 @@
             <path>
               <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
               <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="batch_pstrf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="batch_rand" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CUBlas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CUBlas" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="batch_transpose" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,16 +227,15 @@
       <workItem from="1722524186092" duration="2908000" />
       <workItem from="1722597224854" duration="30000" />
       <workItem from="1724174650896" duration="1000" />
-      <workItem from="1724174662582" duration="3952000" />
+      <workItem from="1724174662582" duration="4411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9047000" />
+    <option name="totallyTimeSpent" value="9506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26613545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -526,7 +480,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/batch_transpose/Readme_btr.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="316">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
