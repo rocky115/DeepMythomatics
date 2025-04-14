@@ -5,7 +5,7 @@
 
 # DeepMythomatics - Dedicated to our ancestors rishis, writers and poets
 
-#### On this auspicious day of Hindhu Naba Barsha (Sambat 2082) , Pana Sankranti, Odia New Year, Sree Hanumaan Jayanthi
+#### On this auspicious day of Hindhu Naba Barsha (Sambat 2082) , Pana Sankranti, Odia New Year, Sree Hanumaan Jayanthi, Baba Ambedkar's Jayanthi
 
 This repository is for brief explanation of knowledge and enlightenment behind nature's randomness and its analysis.
 
