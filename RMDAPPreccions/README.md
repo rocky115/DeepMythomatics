@@ -1,9 +1,9 @@
-#Om Sree Sree Ganeshay Namoh
-##Om Sree Sree Raadhamadhabay Saranam
-##Om Sree Sree Hanumate Namoh 
+# Om Sree Sree Ganeshay Namoh
+## Om Sree Sree Raadhamadhabay Saranam
+## Om Sree Sree Hanumate Namoh 
 ## Om Sree Sree Bankeswaray Namoh
 
-# DeepMythomatics: RMDAPPreccions - Dedicated to our Bhaarathbarsh's cattle
+# DeepMythomatics: RMDAllpeccions - Dedicated to our Bhaarathbarsh's cattle
 
 #### On this auspicious day of Bhaadra Purnami (Sambat 2082)
 
